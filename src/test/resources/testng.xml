@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="HawkularRestTest" >
+  <test name="TenantsTest">
+    <parameter name="tenant" value="rest-test"/>
+    <classes>
+      <class name="hawmular.rest.test.TenantsTest" />
+    </classes>
+  </test>
+   <test name="ResourceTest">
+    <parameter name="tenant" value="rest-test"/>
+    <parameter name="resourceId" value="resourceId"/>
+    <classes>
+      <class name="hawmular.rest.test.ResourceTest" />
+    </classes>
+  </test>
+</suite>
