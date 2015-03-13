@@ -26,6 +26,7 @@ public class HawkularRestTestUtil {
 		Tenant t = new Tenant();
 		t.setId(tenantId);
 		t.setRetention(MetricType.NUMERIC, 100);
+		t.setRetention(MetricType.AVAILABILITY, 80);
 
 		return t;
 

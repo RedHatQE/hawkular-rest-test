@@ -3,14 +3,14 @@
   <test name="TenantsTest">
     <parameter name="tenant" value="rest-test"/>
     <classes>
-      <class name="hawmular.rest.test.TenantsTest" />
+      <class name="hawkular.rest.test.TenantsTest" />
     </classes>
   </test>
    <test name="ResourceTest">
     <parameter name="tenant" value="rest-test"/>
     <parameter name="resourceId" value="resourceId"/>
     <classes>
-      <class name="hawmular.rest.test.ResourceTest" />
+      <class name="hawkular.rest.test.ResourceTest" />
     </classes>
   </test>
 </suite>
